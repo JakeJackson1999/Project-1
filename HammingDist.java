@@ -26,4 +26,22 @@ public class HammingDist{
 		br.close();
 	}
 	
+	public boolean isFirstCharSimilar() {
+		if(city1.substring(0, 1).equalsIgnoreCase(city2.substring(0, 1))) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+	public boolean isSecondCharSimilar() {
+		if(city1.substring(1, 2).equalsIgnoreCase(city2.substring(1, 2))) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
 }
