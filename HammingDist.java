@@ -9,5 +9,21 @@ public class HammingDist{
 	private String city2;
 	private ArrayList<String> hammingArray = new ArrayList<String>();
 	
+	public HammingDist(String city1, String city2) throws IOException{
+		this.city1 = city1;
+		this.city2 = city2;
+		File file = new File("Mesonet.txt");
+		BufferedReader br = new BufferedReader(new FileReader(file));
+		String str;
+		str = br.readLine();
+		str = br.readLine();
+		str = br.readLine();
+		str = br.readLine();
+		while(str != null) {
+			hammingArray.add(str.substring(1,  5));
+			str = br.readLine();
+		}
+		br.close();
+	}
 	
 }
