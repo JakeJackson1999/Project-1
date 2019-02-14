@@ -92,6 +92,14 @@ public class HammingDist{
 		for (int i = 0; i < hammingArray.size(); i++) {
 			int count = 0;
 			
+			if(city1.substring(0, 1).equals(hammingArray.get(i).substring(0, 1))) {
+				count = count;
+			}
+			else {
+				count += 1;
+			}
+			
+			
 			
 		}
 		
