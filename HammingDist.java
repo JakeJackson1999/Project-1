@@ -172,6 +172,10 @@ public class HammingDist{
 			if (count == 2) {
 				twoWrong2 += 1;
 			}
+			if (count == 3) {
+				threeWrong2 += 1;
+			}
+			
 			
 		}
 		
