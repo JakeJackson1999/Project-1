@@ -99,6 +99,13 @@ public class HammingDist{
 				count += 1;
 			}
 			
+			if(city1.substring(1, 2).equals(hammingArray.get(i).substring(1, 2))) {
+				count = count;
+			}
+			else {
+				count += 1;
+			}
+			
 			
 			
 		}
