@@ -63,6 +63,15 @@ public class HammingDist{
 	}
 	
 	public String toString() {
+		int distance = 0;
+		int oneWrong = 0;
+		int twoWrong = 0;
+		int threeWrong = 0;
+		int allWrong = 0;
+		int oneWrong2 = 0;
+		int twoWrong2 = 0;
+		int threeWrong2 = 0;
+		int allWrong2 = 0;
 		
 	}
 	
