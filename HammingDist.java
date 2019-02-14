@@ -89,7 +89,11 @@ public class HammingDist{
 			distance += 1;
 		}
 		
-		
+		for (int i = 0; i < hammingArray.size(); i++) {
+			int count = 0;
+			
+			
+		}
 		
 	}
 	
