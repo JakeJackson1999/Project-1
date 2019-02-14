@@ -181,7 +181,7 @@ public class HammingDist{
 			
 		}
 		
-		String result = String.format("The Hamming Distance of %s and %s: %d\nOut of 119, for %s, number of nodes are: %d, %d, %d, %d and\nfor %s, number of nodes are: %d, %d, %d, %d respectively."
+		String result = String.format("The Hamming Distance of %s and %s: %d.\nOut of 119, for %s, number of nodes are: %d, %d, %d, %d and\nfor %s, number of nodes are: %d, %d, %d, %d respectively."
 				, city1, city2, distance, city1, oneWrong, twoWrong, threeWrong, allWrong, city2, oneWrong2, twoWrong2, threeWrong2, allWrong2);
 		return result;
 		
