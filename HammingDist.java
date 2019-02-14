@@ -120,9 +120,22 @@ public class HammingDist{
 				count += 1;
 			}
 			
-			
+			if (count == 1) {
+				oneWrong += 1;
+			}
+			if (count == 2) {
+				twoWrong += 1;
+			}
+			if (count == 3) {
+				threeWrong += 1;
+			}
+			if (count == 4) {
+				allWrong += 1;
+			}
 			
 		}
+		
+		
 		
 	}
 	
