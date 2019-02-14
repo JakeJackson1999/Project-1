@@ -62,6 +62,8 @@ public class HammingDist{
 		}
 	}
 	
-	
+	public String toString() {
+		
+	}
 	
 }
