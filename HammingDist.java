@@ -73,6 +73,24 @@ public class HammingDist{
 		int threeWrong2 = 0;
 		int allWrong2 = 0;
 		
+		if (isFirstCharSimilar() == false) {
+			distance += 1;
+		}
+		
+		if (isSecondCharSimilar() == false) {
+			distance += 1;
+		}
+		
+		if (isThirdCharSimilar() == false) {
+			distance += 1;
+		}
+		
+		if (isFourthCharSimilar() == false) {
+			distance += 1;
+		}
+		
+		
+		
 	}
 	
 }
