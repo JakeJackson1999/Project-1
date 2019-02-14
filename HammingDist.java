@@ -166,6 +166,9 @@ public class HammingDist{
 				count += 1;
 			}
 			
+			if (count == 1) {
+				oneWrong2 += 1;
+			}
 			
 			
 		}
